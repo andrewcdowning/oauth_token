@@ -20,7 +20,7 @@ class OctoToken(object):
         self.scope = "urn:opc:idm:__myscopes__"
         
     def __repr__(self):
-        return '{self.__class__.__name__}({self.client_id},{self.oauth_uri},{self.grant_token})
+        return '{self.__class__.__name__}({self.client_id},{self.oauth_uri},{self.grant_token})'
 
     def get_token(self):
         if self.expires < int(time.time()):
