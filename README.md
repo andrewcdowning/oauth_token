@@ -1,2 +1,2 @@
-# octo_token
+# oauth_token
 Python class for requesting auth token from idcs service provider
